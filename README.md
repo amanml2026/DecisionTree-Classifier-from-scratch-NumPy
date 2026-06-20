@@ -21,6 +21,7 @@ A pure Python implementation of a decision tree classifier built from scratch us
 - Decision boundary visualization with PCA dimensionality reduction
 - Side-by-side training/test set comparison
 - Integration with scikit-learn's `plot_decision_regions`
+- Decision Tree 
 
 ⚙️ **Customization**
 - `max_depth` - Control tree depth (default: 100)
@@ -206,7 +207,6 @@ DecisionTree(min_samples_split=2, max_depth=100, n_features=None)
 - [ ] Categorical feature handling
 - [ ] Missing value handling
 - [ ] Feature importance calculation
-- [ ] Tree export to visual format (GraphViz)
 
 ## Learning Resources
 
